@@ -1,0 +1,117 @@
+.top-title:hover + .hr-style {
+    width: 10%;
+    color: #008000;
+  }
+  
+  .hr-style {
+    width: 5%;
+    margin: 0 auto 0 auto;
+    height: 2px;
+    transition: 0.3s;
+  }
+  
+  #more-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #808080
+  }
+  #more-link:hover{
+    color: #0000ff;
+    text-decoration: underline
+  }
+  
+  /* carousel */
+  .carousel-inner > .carousel-item {
+    height: 500px;
+    cursor: pointer;
+  }
+  .carousel-inner > .carousel-item > img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }
+  
+  /* Card product */
+  #productCard {
+    width: 90%;
+    border: none;
+    transition: 1s;
+  }
+  
+  #productCard > .product-img {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+  
+  #productCard > .product-img > img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  #productCard > .overlay {
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #productCard:hover .product-img{
+    opacity: 0.3;
+  }
+  
+  #productCard:hover .overlay{
+    opacity: 1;
+  }
+  /* Rating Star */
+  .checked {
+    color: #ffff00;
+  }
+  
+  #bottom-ad > div > img {
+    transition: transform .2s;
+  }
+  #bottom-ad > div > img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+    
+.product img {
+    width: 100%;
+}
+    
+.product h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+    
+.product .rating {
+    margin-bottom: 5px;
+}
+    
+.product .star {
+    color: gold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+    
+.product .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
